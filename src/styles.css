@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-bottom: 5%;
+  background: url("../assets/header-background.jpg");
+  background-size: cover;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  row-gap: 32px;
+}
+
+header date-picker,
+header auto-complete {
+  width: 100%;
+}
+
+main {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
